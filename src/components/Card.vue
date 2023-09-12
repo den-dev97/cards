@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 const props = defineProps<{
-  flip: boolean;
+  flip?: boolean;
 }>();
 </script>
 

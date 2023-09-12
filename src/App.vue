@@ -1,5 +1,6 @@
 <template>
   <div class="cards-wrapper">
+    <Card class="deck" />
     <Card
       v-for="(card, i) in cards"
       :key="i"
@@ -34,5 +35,10 @@ function flipCard(index: number) {
 .cards-wrapper {
   display: flex;
   position: relative;
+}
+.deck {
+  position: absolute;
+  left: 52%;
+  transform: translateX(-50%) translateY(-105%);
 }
 </style>
