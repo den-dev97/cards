@@ -3,8 +3,8 @@
     class="card"
     :class="{flip: props.flip}"
   >
-    <img src="src/assets/img/card/back.png" class="card-inner back" alt="back"/>
-    <img src="src/assets/img/card/front.png" class="card-inner front" alt="front"/>
+    <img src="@/assets/img/card/back.png" class="card-inner back" alt="back"/>
+    <img src="@/assets/img/card/front.png" class="card-inner front" alt="front"/>
   </div>
 </template>
 

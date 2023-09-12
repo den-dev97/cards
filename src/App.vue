@@ -33,7 +33,6 @@ function flipCard(index: number) {
 <style scoped>
 .cards-wrapper {
   display: flex;
-  width: max-content;
   position: relative;
 }
 </style>
