@@ -1,40 +1,47 @@
-# cards
+# Карточная Мини-Игра на Vue.js, Vite и TS
+**[Ссылка на игру](https://den-dev97.github.io/cards/ "cards mini game")**
 
-This template should help get you started developing with Vue 3 in Vite.
+Этот проект представляет собой мини-игру с карточками, разработанную на Vue.js с использованием сборщика Vite. Игра предлагает пользователю переворачивать карточки. Проект создан для демонстрации базовых возможностей Vue.js, включая реактивность, использование анимации и адаптивность.
+![preview](src/assets/img/preview.png "cards game")
 
-## Recommended IDE Setup
+## Технологии
+- Vue.js 3: Фреймворк для создания пользовательских интерфейсов.
+- Vite: Сборщик и сервер разработки.
+- TypeScript: Строго типизированный язык программирования.
+- CSS: Стилизация компонентов.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Функциональность
+- Переворачивание карточек по клику.
+- Анимация переворота карточек.
+- Адаптивный дизайн для различных размеров экрана.
+- Оптимизированные изображения для быстрой загрузки
 
-## Type Support for `.vue` Imports in TS
+## Установка
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+1. Клонируйте репозиторий:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+`git clone git@github.com:den-dev97/cards.git`
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+2. Перейдите в директорию проекта:
 
-## Customize configuration
+`cd your-repository-name`
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+3. Установите зависимости:
 
-## Project Setup
+`npm install`
 
-```sh
-npm install
-```
+## Запуск проекта
 
-### Compile and Hot-Reload for Development
+Чтобы запустить проект на вашем локальном компьютере, выполните следующую команду:
 
-```sh
-npm run dev
-```
+`npm run dev`
 
-### Type-Check, Compile and Minify for Production
+## Использование
 
-```sh
-npm run build
-```
+1. Откройте веб-приложение в браузере.
+2. Нажмите кнопку "Play" для начала игры.
+3. Кликните по карточке для её переворота.
+
+## Лицензия
+
+Этот проект распространяется под лицензией MIT.
