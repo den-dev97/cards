@@ -20,7 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   user-select: none;
-  background: url("src/assets/img/main-bg.png");
+  background: url("@/assets/img/main-bg.png");
   background-size: cover;
   display: flex;
   justify-content: center;
